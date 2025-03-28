@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F43EC643-E702-440A-AFE7-3F2AF60ECFA3}|WpfApp1\\WpfApp1.csproj|c:\\users\\asus\\onedrive\\desktop\\c#project\\wpfapp1\\wpfapp1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F43EC643-E702-440A-AFE7-3F2AF60ECFA3}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F43EC643-E702-440A-AFE7-3F2AF60ECFA3}|WpfApp1\\WpfApp1.csproj|c:\\users\\asus\\onedrive\\desktop\\c#project\\wpfapp1\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F43EC643-E702-440A-AFE7-3F2AF60ECFA3}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F43EC643-E702-440A-AFE7-3F2AF60ECFA3}|WpfApp1\\WpfApp1.csproj|c:\\users\\asus\\onedrive\\desktop\\c#project\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F43EC643-E702-440A-AFE7-3F2AF60ECFA3}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\WpfApp1\\.gitignore",
+              "RelativeDocumentMoniker": "WpfApp1\\.gitignore",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\WpfApp1\\.gitignore",
+              "RelativeToolTip": "WpfApp1\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-28T16:59:32.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WpfApp1.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-28T16:38:18.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\WpfApp1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
@@ -38,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
@@ -50,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\WpfApp1\\App.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\App.xaml",
