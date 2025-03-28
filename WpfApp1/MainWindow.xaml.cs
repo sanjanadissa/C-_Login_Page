@@ -46,16 +46,16 @@ public partial class MainWindow : Window
         
         if (string.IsNullOrEmpty(UsernameTextBox.Text))
         {
-            UsernamePlaceholder.Visibility = Visibility.Visible;
+            contentPanel.Visibility = Visibility.Visible;
         }
         else
         {
-            UsernamePlaceholder.Visibility = Visibility.Collapsed;
+            contentPanel.Visibility = Visibility.Collapsed;
         }
     }
     private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
     {
-        PasswordPlaceholder.Visibility = string.IsNullOrEmpty(PasswordBox.Password) ? Visibility.Visible : Visibility.Collapsed;
+        contentPanelpass.Visibility = string.IsNullOrEmpty(PasswordBox.Password) ? Visibility.Visible : Visibility.Collapsed;
     }
 
     private void Window_MouseDown(object sender, MouseButtonEventArgs e)
