@@ -43,7 +43,7 @@ public partial class MainWindow : Window
 
     private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
     {
-        // Hide the placeholder when the user starts typing
+        
         if (string.IsNullOrEmpty(UsernameTextBox.Text))
         {
             UsernamePlaceholder.Visibility = Visibility.Visible;
@@ -62,7 +62,8 @@ public partial class MainWindow : Window
     {
         if (e.LeftButton == MouseButtonState.Pressed)
         {
-            DragMove(); // Enables dragging the window
+            DragMove(); 
         }
     }
+   
 }

@@ -5,11 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="751" Width="1090">
+        Title="MainWindow" Height="751" Width="1090"
+         WindowStyle="None" AllowsTransparency="True" Background="Transparent">
 
-    <Border  Background="{StaticResource {x:Static SystemColors.WindowBrushKey}}" 
-            CornerRadius="20">
-        <Canvas>
+
+    <Border Background="{StaticResource {x:Static SystemColors.WindowBrushKey}}" 
+            CornerRadius="40" >
+        <Border.Clip>
+            <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0,0,1090,751"/>
+        </Border.Clip>
+        <Canvas ClipToBounds="True">
             <Rectangle Width="862" Height="710" Fill="#FFF2E7CC" RadiusX="165.879" RadiusY="165.879"
                   Canvas.Left="516" Canvas.Top="-14" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Top">
                 <Rectangle.RenderTransform>
@@ -150,7 +155,7 @@
             </Button>
 
             <Grid Canvas.Left="667" Canvas.Top="359" Width="332" Height="47">
-                <!-- Placeholder TextBlock -->
+
                 <TextBlock x:Name="UsernamePlaceholder" Text="Username" Panel.ZIndex="10" Foreground="Gray" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="16" Margin="20,-8,0,0"/>
 
                 <!-- TextBox for Username -->
@@ -171,10 +176,15 @@
                 </TextBox>
             </Grid>
 
+            <StackPanel Height="58" Width="388" Canvas.Top="77" Canvas.Left="70"  Orientation="Horizontal" Panel.ZIndex="10" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <TextBlock x:Name="UsernamePlaceholder2" Text="Username" Panel.ZIndex="10" Foreground="Gray" FontSize="18" Height="22" Width="92" Margin="0,0,250,0"/>
+                <Image x:Name="imag" Source="/Assets/moai-emoji.png" Width="38" Height="30" />
+            </StackPanel>
+
 
         </Canvas>
     </Border>
- 
-    
-    
+
+
+
 </Window>
