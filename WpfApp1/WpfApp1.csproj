@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="moai-emoji.png" />
-    <Resource Include="—Pngtree—business office team meeting project_7183397.png" />
+    <Resource Include="Assets\moai-emoji.png" />
+    <Resource Include="Assets\—Pngtree—business office team meeting project_7183397.png" />
   </ItemGroup>
 
 </Project>

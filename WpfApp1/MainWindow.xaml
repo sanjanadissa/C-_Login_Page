@@ -21,9 +21,9 @@
                     </TransformGroup>
                 </Rectangle.RenderTransform>
             </Rectangle>
-            <Image x:Name="image" Height="520" Canvas.Left="125" Canvas.Top="173" Width="606" Source="/—Pngtree—business office team meeting project_7183397.png" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.717,0.454" />
+            <Image x:Name="image" Height="520" Canvas.Left="125" Canvas.Top="173" Width="606" Source="Assets/—Pngtree—business office team meeting project_7183397.png" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.717,0.454" />
 
-            <!-- halooooowwwww Login Button with Rounded Corners -->
+            <!-- Login Button with Rounded Corners -->
             <Button Content="LogIn" Height="47" Canvas.Left="671" Canvas.Top="482" Width="332" Click="Button_Click_1" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Normal" HorizontalAlignment="Center" FontSize="22" >
                 <Button.Style>
                     <Style TargetType="Button">
