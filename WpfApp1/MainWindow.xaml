@@ -67,22 +67,34 @@
             Width="606" Canvas.Top="169" Source="Assets/—Pngtree—business office team meeting project_7183397.png" RenderTransformOrigin="0.717,0.454" x:Name="image" Canvas.Left="1106" Height="520" HorizontalAlignment="Left" VerticalAlignment="Center" />
 
 
-            <Button Style="{DynamicResource ButtonStyle3}" Content="LogIn" Height="47" Canvas.Left="671" Canvas.Top="482" Width="332" Click="Button_Click_1" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Normal" HorizontalAlignment="Center" FontSize="22" >
-                <VisualStateManager.VisualStateGroups>
-                    <VisualStateGroup Name="CommonStates">
-                        <VisualState Name="Normal"/>
-                        <VisualState Name="MouseOver">
-                            <Storyboard>
-                                <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)"
-                                    To="LightBlue" Duration="0:0:0.2"/>
-                            </Storyboard>
-                        </VisualState>
-                    </VisualStateGroup>
-                </VisualStateManager.VisualStateGroups>
+            <Button Content="LogIn" Height="47" Canvas.Left="671" Canvas.Top="482" Width="332" Click="Button_Click_1"
+        VerticalAlignment="Top" FontWeight="Bold" FontStyle="Normal" HorizontalAlignment="Center" FontSize="22">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="0" 
+                                CornerRadius="20">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="Background" Value="White"/>
+                        <Setter Property="BorderBrush" Value="Gray"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="LightBlue"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
             </Button>
-            <Button>
 
-            </Button>
+
 
             <Grid Canvas.Left="667" Canvas.Top="430" Width="332" Height="47">
                 <Grid.ColumnDefinitions>
