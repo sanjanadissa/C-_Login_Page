@@ -63,15 +63,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WpfApp1",
+              "Title": "WpfApp1.csproj",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
               "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
               "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-29T12:19:22.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T12:19:22.067Z"
             },
             {
               "$type": "Document",
@@ -166,8 +165,7 @@
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\Desktop\\c#project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
               "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-28T18:32:44.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T18:32:44.761Z"
             },
             {
               "$type": "Document",
