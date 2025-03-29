@@ -49,21 +49,24 @@
         <Border.Clip>
             <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0,0,1090,751"/>
         </Border.Clip>
-        <Canvas ClipToBounds="True">
-            <Rectangle Width="862" Height="710" Fill="#FFF2E7CC" RadiusX="165.879" RadiusY="165.879"
-                  Canvas.Left="516" Canvas.Top="-14" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Top">
+        <Canvas ClipToBounds="True" Margin="-552,0,0,0">
+            <Rectangle Width="881" Height="878" Fill="#FFF2E7CC" RadiusX="165.879" RadiusY="165.879"
+                  Canvas.Left="265" Canvas.Top="-62" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top">
                 <Rectangle.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
                         <SkewTransform/>
-                        <RotateTransform Angle="-56.155"/>
+                        <RotateTransform Angle="-35.275"/>
                         <TranslateTransform/>
                     </TransformGroup>
                 </Rectangle.RenderTransform>
             </Rectangle>
-            <Image x:Name="image" Height="520" Canvas.Left="125" Canvas.Top="173" Width="606" Source="Assets/—Pngtree—business office team meeting project_7183397.png" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.717,0.454" />
+            <Image
 
-  
+
+            Width="606" Canvas.Top="169" Source="Assets/—Pngtree—business office team meeting project_7183397.png" RenderTransformOrigin="0.717,0.454" x:Name="image" Canvas.Left="1106" Height="520" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+
             <Button Style="{DynamicResource ButtonStyle3}" Content="LogIn" Height="47" Canvas.Left="671" Canvas.Top="482" Width="332" Click="Button_Click_1" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Normal" HorizontalAlignment="Center" FontSize="22" >
                 <VisualStateManager.VisualStateGroups>
                     <VisualStateGroup Name="CommonStates">
@@ -78,7 +81,7 @@
                 </VisualStateManager.VisualStateGroups>
             </Button>
             <Button>
-                
+
             </Button>
 
             <Grid Canvas.Left="667" Canvas.Top="430" Width="332" Height="47">
@@ -208,11 +211,11 @@
 
             <StackPanel x:Name="contentPanel" Height="58" Width="315" Canvas.Top="333" Canvas.Left="680"  Orientation="Horizontal" Panel.ZIndex="10" HorizontalAlignment="Left" VerticalAlignment="Center">
                 <TextBlock x:Name="UsernamePlaceholder2" Text="Username" Panel.ZIndex="10" Foreground="Gray" FontSize="18" Height="25" Width="92" Margin="0,0,180,0"/>
-                <Image x:Name="imag" Source="/Assets/moai-emoji.png" Width="38" Height="30" />
+                <Image x:Name="imag" Source="/Assets/c0e442423a5dde61b9fa68e858ed26f8.png" Width="38" Height="30" />
             </StackPanel>
             <StackPanel x:Name="contentPanelpass" Height="58" Width="315" Canvas.Top="398" Canvas.Left="680"  Orientation="Horizontal" Panel.ZIndex="10" HorizontalAlignment="Left" VerticalAlignment="Center">
                 <TextBlock x:Name="UsernamePlaceholder1" Text="Password" Panel.ZIndex="10" Foreground="Gray" FontSize="18" Height="25" Width="92" Margin="0,0,180,0"/>
-                <Image x:Name="imag1" Source="/Assets/moai-emoji.png" Width="38" Height="30" />
+                <Image x:Name="imag1" Source="/Assets/947757aa4f401c5c46d196283a55c386.png" Width="38" Height="30" />
             </StackPanel>
 
 
