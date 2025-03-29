@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="751" Width="1090"
          WindowStyle="None" AllowsTransparency="True" Background="Transparent">
     <Window.Resources>
@@ -49,9 +50,17 @@
         <Border.Clip>
             <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0,0,1090,751"/>
         </Border.Clip>
-        <Canvas ClipToBounds="True" Margin="-552,0,0,0">
+
+        <Canvas ClipToBounds="True" Margin="-552,0,0,0"  MouseLeftButtonDown="Canvas_MouseLeftButtonDown">
+
+            <Button Content="✕" Canvas.Left="1592" Canvas.Top="-6" Width="50" Height="66" 
+FontSize="25" FontWeight="ExtraBold" Background="White" Foreground="Black" 
+BorderThickness="0" Click="CloseWindow" HorizontalAlignment="Center" VerticalAlignment="Top" />
+
+
+
             <Rectangle Width="881" Height="878" Fill="#FFF2E7CC" RadiusX="165.879" RadiusY="165.879"
-                  Canvas.Left="265" Canvas.Top="-62" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top">
+                  Canvas.Left="265" Canvas.Top="-62" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" StrokeStartLineCap="Flat">
                 <Rectangle.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -87,7 +96,7 @@
                         <Setter Property="BorderBrush" Value="Gray"/>
                         <Style.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="LightBlue"/>
+                                <Setter Property="Background" Value="#E8C4B5"/>
                             </Trigger>
                         </Style.Triggers>
                     </Style>
@@ -153,7 +162,7 @@
             </TextBox>
 
 
-            <TextBox Canvas.Left="899" TextWrapping="Wrap" Text="Forgot Password?" Canvas.Top="456" Width="120" TextChanged="TextBox_TextChanged_1" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <TextBox Canvas.Left="899" TextWrapping="Wrap" Text="Forgot Password?" Canvas.Top="456" Width="120" TextChanged="TextBox_TextChanged_1" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="DemiBold">
                 <TextBox.Style>
                     <Style TargetType="TextBox">
                         <Setter Property="Template">
@@ -169,7 +178,8 @@
                 </TextBox.Style>
             </TextBox>
 
-            <TextBox Canvas.Left="694" TextWrapping="Wrap" Text="Don't have an account?" Canvas.Top="540" Width="164" TextChanged="TextBox_TextChanged_1" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="DemiBold">
+            <TextBox Canvas.Left="694" TextWrapping="Wrap" Text="Don't have an account?" Canvas.Top="543" Width="164" TextChanged="TextBox_TextChanged_1" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="DemiBold">
+
                 <TextBox.Style>
                     <Style TargetType="TextBox">
                         <Setter Property="Template">
@@ -185,21 +195,35 @@
                 </TextBox.Style>
             </TextBox>
 
-            <Button Content="Sign Up&#xA;" Height="22" Canvas.Left="876" Canvas.Top="543" Width="116" Click="Button_Click_1" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="DemiBold" RenderTransformOrigin="0.379,-2.18">
+            <Button Content="Sign Up&#xA;" Height="22" Canvas.Left="876" Canvas.Top="543" Width="116" Click="Button_Click_1" 
+        HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="DemiBold" RenderTransformOrigin="0.379,-2.18" BorderThickness="0,0,0,0">
                 <Button.Style>
                     <Style TargetType="Button">
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="Button">
-                                    <Border BorderBrush="Gray" BorderThickness="0" CornerRadius="10">
-                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
+
+                        <Setter Property="Background" Value="#FFF2E7CC"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border BorderBrush="Gray" BorderThickness="0" CornerRadius="10" Background="{TemplateBinding Background}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+                                                    <ContentPresenter.Effect>
+                                                        <DropShadowEffect/>
+                                                    </ContentPresenter.Effect>
+                                                </ContentPresenter>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+
+
+                            </Trigger>
+                        </Style.Triggers>
                     </Style>
                 </Button.Style>
             </Button>
+
 
             <Grid Canvas.Left="667" Canvas.Top="359" Width="332" Height="47">
 
@@ -229,9 +253,13 @@
                 <TextBlock x:Name="UsernamePlaceholder1" Text="Password" Panel.ZIndex="10" Foreground="Gray" FontSize="18" Height="25" Width="92" Margin="0,0,180,0"/>
                 <Image x:Name="imag1" Source="/Assets/947757aa4f401c5c46d196283a55c386.png" Width="38" Height="30" />
             </StackPanel>
+            <Button Content="─" Canvas.Left="1542" Canvas.Top="-14" Width="50" Height="74" 
+        FontSize="46" FontWeight="ExtraBold" Background="White" Foreground="Black" 
+        BorderThickness="0" Click="MinimizeWindow" HorizontalAlignment="Left" VerticalAlignment="Top" />
 
 
         </Canvas>
+
     </Border>
 
 

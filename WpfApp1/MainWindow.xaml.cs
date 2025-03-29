@@ -65,5 +65,23 @@ public partial class MainWindow : Window
             DragMove(); 
         }
     }
-   
+
+    private void MinimizeWindow(object sender, RoutedEventArgs e)
+    {
+        this.WindowState = WindowState.Minimized;
+    }
+
+    private void CloseWindow(object sender, RoutedEventArgs e)
+    {
+        this.Close();
+    }
+    private void Canvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+    {
+        if (e.LeftButton == MouseButtonState.Pressed)
+        {
+            DragMove();
+        }
+    }
+
+
 }
